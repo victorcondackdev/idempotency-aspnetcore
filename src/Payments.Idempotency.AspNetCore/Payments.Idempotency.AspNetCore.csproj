@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>Payments.Idempotency.AspNetCore</RootNamespace>
+    <PackageId>Payments.Idempotency.AspNetCore</PackageId>
+    <Version>0.1.0</Version>
+    <Description>Stripe-style idempotency keys for ASP.NET Core payment APIs: Idempotency-Key header handling, request fingerprinting, in-flight locking (409), mismatch detection (422), response replay with Idempotent-Replayed, TTL expiry and pluggable storage (in-memory, IDistributedCache).</Description>
+    <PackageTags>idempotency;idempotency-key;aspnetcore;minimal-api;payments;stripe;middleware;retries</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/victorcondackdev/idempotency-aspnetcore</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Payments.Idempotency.AspNetCore.Tests" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

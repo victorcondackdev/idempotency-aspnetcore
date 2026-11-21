@@ -1,0 +1,34 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payments.Idempotency.AspNetCore", "src\Payments.Idempotency.AspNetCore\Payments.Idempotency.AspNetCore.csproj", "{1807BF84-0866-46E1-9B33-B9E29ABB91F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payments.Idempotency.AspNetCore.Tests", "tests\Payments.Idempotency.AspNetCore.Tests\Payments.Idempotency.AspNetCore.Tests.csproj", "{B91B0A48-1762-47AC-A4EE-D6367A5495D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Api", "samples\Sample.Api\Sample.Api.csproj", "{45F63BE7-80F4-402F-8CBD-B4D03C272B1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1807BF84-0866-46E1-9B33-B9E29ABB91F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1807BF84-0866-46E1-9B33-B9E29ABB91F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1807BF84-0866-46E1-9B33-B9E29ABB91F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1807BF84-0866-46E1-9B33-B9E29ABB91F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B91B0A48-1762-47AC-A4EE-D6367A5495D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B91B0A48-1762-47AC-A4EE-D6367A5495D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B91B0A48-1762-47AC-A4EE-D6367A5495D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B91B0A48-1762-47AC-A4EE-D6367A5495D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45F63BE7-80F4-402F-8CBD-B4D03C272B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45F63BE7-80F4-402F-8CBD-B4D03C272B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45F63BE7-80F4-402F-8CBD-B4D03C272B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45F63BE7-80F4-402F-8CBD-B4D03C272B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
